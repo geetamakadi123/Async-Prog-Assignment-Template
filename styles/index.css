@@ -1,0 +1,54 @@
+#navbar{
+    display:flex;
+    justify-content: flex-end;
+    border: 2px solid white;
+    padding:10px 0px 10px 0px;
+    background-color: rgb(26, 33, 70);
+}
+#navbar div{
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 800;
+}
+#navbar a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    
+}
+#slideshow{
+    width:100%;
+    height:50%;
+}
+#slideshow img{
+    width:100%;
+    height:500px
+    
+}
+#movies{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,500px);
+    gap:20px
+}
+#movies img{
+    width:100%;
+    height:75%
+    
+}
+#movies div{
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#sort-buttons{
+    text-align: center; 
+    color: white;
+}
+#sort-buttons button{
+    margin:25px;
+    color: white;
+    background-color: rgb(243, 119, 222);
+    border-radius: 10px;
+    padding:20px;
+}
